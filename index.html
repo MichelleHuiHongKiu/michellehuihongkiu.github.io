@@ -1,474 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CV – Localization Specialist</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg:        #0a0a0c;
-    --surface:   #111116;
-    --border:    #1e1e28;
-    --accent:    #c8f060;
-    --accent2:   #5b8cff;
-    --muted:     #44445a;
-    --text:      #e0e0ee;
-    --text-dim:  #7a7a9a;
-    --label:     #c8f060;
-    --mono:      'DM Mono', monospace;
-    --sans:      'Syne', sans-serif;
-    --jp:        'Noto Sans JP', sans-serif;
-  }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Your Name] — Localization Specialist</title>
+  <meta name="description" content="Localization Specialist based in Tokyo. Focused on player comprehension, linguistic intent, and multilingual game releases.">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap');
 
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg:        #0a0a0c;
+  --surface:   #111116;
+  --border:    #1e1e28;
+  --accent:    #c8f060;
+  --accent2:   #5b8cff;
+  --muted:     #44445a;
+  --text:      #e0e0ee;
+  --text-dim:  #7a7a9a;
+  --mono:      'DM Mono', monospace;
+  --sans:      'Syne', sans-serif;
+  --jp:        'Noto Sans JP', sans-serif;
+}
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--sans);
-    min-height: 100vh;
-    line-height: 1.6;
-    overflow-x: hidden;
-  }
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  /* ── NOISE OVERLAY ── */
-  body::before {
-    content: '';
-    position: fixed; inset: 0;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-    pointer-events: none;
-    z-index: 0;
-    opacity: 0.4;
-  }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  min-height: 100vh;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
 
-  .wrapper {
-    position: relative;
-    z-index: 1;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 60px 32px 100px;
-  }
+/* ── NOISE OVERLAY ── */
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+}
 
-  /* ── HEADER ── */
-  header {
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 40px;
-    margin-bottom: 56px;
-    position: relative;
-  }
+/* ── WRAPPER ── */
+.wrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 32px 100px;
+}
 
-  .header-top {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 24px;
-    flex-wrap: wrap;
-  }
+/* ── HEADER ── */
+header {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 40px;
+  margin-bottom: 56px;
+}
 
-  .name-block {}
+.header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
 
-  .tag {
-    font-family: var(--mono);
-    font-size: 10px;
-    letter-spacing: 0.18em;
-    color: var(--accent);
-    text-transform: uppercase;
-    margin-bottom: 12px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .tag::before {
-    content: '';
-    display: inline-block;
-    width: 18px; height: 1px;
-    background: var(--accent);
-  }
+.tag {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tag::before {
+  content: '';
+  display: inline-block;
+  width: 18px; height: 1px;
+  background: var(--accent);
+}
 
-  h1 {
-    font-family: var(--sans);
-    font-size: clamp(32px, 5vw, 52px);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    line-height: 1.05;
-    color: #fff;
-  }
+h1 {
+  font-family: var(--sans);
+  font-size: clamp(37px, 5.5vw, 60px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  color: #fff;
+}
 
-  .subtitle {
-    margin-top: 8px;
-    font-family: var(--jp);
-    font-size: 13px;
-    font-weight: 300;
-    color: var(--text-dim);
-    letter-spacing: 0.05em;
-  }
+.subtitle {
+  margin-top: 8px;
+  font-family: var(--jp);
+  font-size: 14.9px;
+  font-weight: 300;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+}
 
-  .contact-block {
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    padding-top: 4px;
-  }
+.contact-block {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 4px;
+}
 
-  .contact-item {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--text-dim);
-    letter-spacing: 0.05em;
-  }
-  .contact-item span {
-    color: var(--text);
-    font-weight: 500;
-  }
+.contact-item {
+  font-family: var(--mono);
+  font-size: 12.6px;
+  color: var(--text-dim);
+  letter-spacing: 0.05em;
+}
+.contact-item span {
+  color: var(--text);
+  font-weight: 500;
+}
 
-  /* ── GRID LAYOUT ── */
-  .cv-grid {
-    display: grid;
-    grid-template-columns: 1fr 260px;
-    gap: 0 48px;
-    align-items: start;
-  }
+/* ── GRID ── */
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 0 48px;
+  align-items: start;
+}
 
-  .col-main {}
-  .col-side {}
+/* ── SECTION ── */
+section {
+  margin-bottom: 52px;
+}
 
-  /* ── SECTION ── */
-  section {
-    margin-bottom: 52px;
-  }
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 28px;
+}
 
-  .section-header {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 28px;
-  }
+.section-label {
+  font-family: var(--mono);
+  font-size: 10.3px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
 
-  .section-label {
-    font-family: var(--mono);
-    font-size: 9px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--accent);
-  }
+.section-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
 
-  .section-line {
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
+/* ── EXPERIENCE CARD ── */
+.exp-card {
+  border-left: 1px solid var(--border);
+  padding-left: 24px;
+  margin-bottom: 36px;
+  position: relative;
+}
 
-  /* ── EXPERIENCE CARD ── */
-  .exp-card {
-    border-left: 1px solid var(--border);
-    padding-left: 24px;
-    margin-bottom: 36px;
-    position: relative;
-  }
+.exp-card::before {
+  content: '';
+  position: absolute;
+  left: -4px; top: 6px;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent);
+}
 
-  .exp-card::before {
-    content: '';
-    position: absolute;
-    left: -4px; top: 6px;
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    background: var(--accent);
-    box-shadow: 0 0 8px var(--accent);
-  }
+.exp-card.dim::before {
+  background: var(--muted);
+  box-shadow: none;
+}
 
-  .exp-card.dim::before {
-    background: var(--muted);
-    box-shadow: none;
-  }
+.exp-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
 
-  .exp-meta {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin-bottom: 4px;
-  }
+.exp-title {
+  font-size: 17.2px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
 
-  .exp-title {
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: -0.01em;
-  }
+.exp-title-jp {
+  font-family: var(--jp);
+  font-size: 13.8px;
+  font-weight: 400;
+  color: var(--text-dim);
+  margin-top: 1px;
+}
 
-  .exp-title-jp {
-    font-family: var(--jp);
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--text-dim);
-    margin-top: 1px;
-  }
+.exp-date {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
 
-  .exp-date {
-    font-family: var(--mono);
-    font-size: 10px;
-    color: var(--text-dim);
-    white-space: nowrap;
-  }
+.exp-company {
+  font-family: var(--mono);
+  font-size: 12.6px;
+  color: var(--accent2);
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+}
 
-  .exp-company {
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--accent2);
-    letter-spacing: 0.04em;
-    margin-bottom: 12px;
-  }
+.exp-duties {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
 
-  .exp-duties {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-  }
+.exp-duties li {
+  font-size: 14.9px;
+  color: var(--text-dim);
+  line-height: 1.55;
+  display: flex;
+  gap: 10px;
+}
 
-  .exp-duties li {
-    font-size: 13px;
-    color: var(--text-dim);
-    line-height: 1.55;
-    display: flex;
-    gap: 10px;
-  }
+.exp-duties li::before {
+  content: '—';
+  color: var(--muted);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
 
-  .exp-duties li::before {
-    content: '—';
-    color: var(--muted);
-    flex-shrink: 0;
-    margin-top: 1px;
-  }
+.exp-duties .jp {
+  font-family: var(--jp);
+  font-size: 13.2px;
+  font-weight: 300;
+  display: block;
+  color: var(--muted);
+  margin-top: 2px;
+}
 
-  .exp-duties .jp {
-    font-family: var(--jp);
-    font-size: 11.5px;
-    font-weight: 300;
-    display: block;
-    color: var(--muted);
-    margin-top: 2px;
-  }
+/* ── PROMOTION BADGE ── */
+.promo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 10.3px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(200, 240, 96, 0.07);
+  border: 1px solid rgba(200, 240, 96, 0.2);
+  padding: 3px 8px;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
 
-  /* ── PROMOTION BADGE ── */
-  .promo-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-family: var(--mono);
-    font-size: 9px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--accent);
-    background: rgba(200, 240, 96, 0.07);
-    border: 1px solid rgba(200, 240, 96, 0.2);
-    padding: 3px 8px;
-    border-radius: 2px;
-    margin-bottom: 12px;
-  }
+/* ── SKILLS ── */
+.skill-group {
+  margin-bottom: 32px;
+}
 
-  /* ── SKILLS SIDEBAR ── */
-  .skill-group {
-    margin-bottom: 32px;
-  }
+.skill-group-title {
+  font-family: var(--mono);
+  font-size: 10.3px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 14px;
+}
 
-  .skill-group-title {
-    font-family: var(--mono);
-    font-size: 9px;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--text-dim);
-    margin-bottom: 14px;
-  }
+/* ── LANGUAGES ── */
+.lang-item {
+  margin-bottom: 16px;
+}
 
-  .lang-item {
-    margin-bottom: 16px;
-  }
+.lang-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
 
-  .lang-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 5px;
-  }
+.lang-name {
+  font-size: 14.9px;
+  font-weight: 600;
+  color: var(--text);
+}
 
-  .lang-name {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text);
-  }
+.lang-name-jp {
+  font-family: var(--jp);
+  font-size: 12.6px;
+  color: var(--text-dim);
+  font-weight: 300;
+}
 
-  .lang-name-jp {
-    font-family: var(--jp);
-    font-size: 11px;
-    color: var(--text-dim);
-    font-weight: 300;
-  }
+.lang-level {
+  font-family: var(--mono);
+  font-size: 10.3px;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
 
-  .lang-level {
-    font-family: var(--mono);
-    font-size: 9px;
-    color: var(--accent);
-    letter-spacing: 0.08em;
-  }
+.lang-bar {
+  height: 2px;
+  background: var(--border);
+  border-radius: 1px;
+  overflow: hidden;
+}
 
-  .lang-bar {
-    height: 2px;
-    background: var(--border);
-    border-radius: 1px;
-    overflow: hidden;
-  }
+.lang-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  border-radius: 1px;
+  transform-origin: left;
+  animation: barIn 1s cubic-bezier(0.16,1,0.3,1) both;
+}
 
-  .lang-fill {
-    height: 100%;
-    background: linear-gradient(90deg, var(--accent), var(--accent2));
-    border-radius: 1px;
-    transform-origin: left;
-    animation: barIn 1s cubic-bezier(0.16,1,0.3,1) both;
-  }
+@keyframes barIn {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
 
-  @keyframes barIn {
-    from { transform: scaleX(0); }
-    to   { transform: scaleX(1); }
-  }
+.lang-note {
+  font-family: var(--mono);
+  font-size: 10.3px;
+  color: var(--muted);
+  margin-top: 4px;
+}
 
-  .lang-note {
-    font-family: var(--mono);
-    font-size: 9px;
-    color: var(--muted);
-    margin-top: 4px;
-  }
+/* ── SKILL TAGS ── */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
 
-  /* ── SKILL TAGS ── */
-  .skill-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-  }
+.skill-tag {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--text-dim);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 4px 9px;
+  border-radius: 2px;
+  letter-spacing: 0.04em;
+  transition: border-color 0.2s, color 0.2s;
+}
 
-  .skill-tag {
-    font-family: var(--mono);
-    font-size: 10px;
-    color: var(--text-dim);
-    background: var(--surface);
-    border: 1px solid var(--border);
-    padding: 4px 9px;
-    border-radius: 2px;
-    letter-spacing: 0.04em;
-    transition: border-color 0.2s, color 0.2s;
-  }
+.skill-tag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
 
-  .skill-tag:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
+/* ── COMPETENCY BOX ── */
+.competency-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 2px solid var(--accent);
+  padding: 16px 18px;
+  margin-bottom: 32px;
+}
 
-  /* ── CORE COMPETENCY BOX ── */
-  .competency-box {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-left: 2px solid var(--accent);
-    padding: 16px 18px;
-    margin-bottom: 32px;
-  }
+.competency-box p {
+  font-size: 13.8px;
+  color: var(--text-dim);
+  line-height: 1.65;
+}
 
-  .competency-box p {
-    font-size: 12px;
-    color: var(--text-dim);
-    line-height: 1.65;
-  }
+.competency-box p .en { display: block; }
+.competency-box p .jp {
+  font-family: var(--jp);
+  font-size: 12.6px;
+  font-weight: 300;
+  color: var(--muted);
+  display: block;
+  margin-top: 6px;
+}
 
-  .competency-box p .en { display: block; }
-  .competency-box p .jp {
-    font-family: var(--jp);
-    font-size: 11px;
-    font-weight: 300;
-    color: var(--muted);
-    display: block;
-    margin-top: 6px;
-  }
+/* ── EDUCATION ── */
+.edu-item {
+  margin-bottom: 20px;
+  padding-left: 12px;
+  border-left: 1px solid var(--border);
+}
 
-  /* ── FADE IN ── */
-  .fade-up {
-    opacity: 0;
-    transform: translateY(16px);
-    animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) forwards;
-  }
-  @keyframes fadeUp {
-    to { opacity: 1; transform: none; }
-  }
+.edu-school {
+  font-family: var(--jp);
+  font-size: 14.9px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.4;
+}
 
-  .fade-up:nth-child(1) { animation-delay: 0.05s; }
-  .fade-up:nth-child(2) { animation-delay: 0.15s; }
-  .fade-up:nth-child(3) { animation-delay: 0.25s; }
-  .fade-up:nth-child(4) { animation-delay: 0.35s; }
+.edu-dept {
+  font-family: var(--jp);
+  font-size: 12.6px;
+  font-weight: 300;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
 
-  /* ── EDUCATION ── */
-  .edu-item {
-    margin-bottom: 20px;
-    padding-left: 12px;
-    border-left: 1px solid var(--border);
-  }
+.edu-meta {
+  font-family: var(--mono);
+  font-size: 10.3px;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  margin-top: 5px;
+}
 
-  .edu-school {
-    font-family: var(--jp);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--text);
-    line-height: 1.4;
-  }
+/* ── FADE IN ── */
+.fade-up {
+  opacity: 0;
+  transform: translateY(16px);
+  animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) forwards;
+}
+@keyframes fadeUp {
+  to { opacity: 1; transform: none; }
+}
 
-  .edu-dept {
-    font-family: var(--jp);
-    font-size: 11px;
-    font-weight: 300;
-    color: var(--text-dim);
-    margin-top: 2px;
-  }
+.fade-up:nth-child(1) { animation-delay: 0.05s; }
+.fade-up:nth-child(2) { animation-delay: 0.15s; }
+.fade-up:nth-child(3) { animation-delay: 0.25s; }
+.fade-up:nth-child(4) { animation-delay: 0.35s; }
 
-  .edu-meta {
-    font-family: var(--mono);
-    font-size: 9px;
-    color: var(--muted);
-    letter-spacing: 0.06em;
-    margin-top: 5px;
-  }
+/* ── FOOTER ── */
+footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
 
-  /* ── FOOTER ── */
-  footer {
-    margin-top: 60px;
-    padding-top: 24px;
-    border-top: 1px solid var(--border);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
+footer span {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+}
 
-  footer span {
-    font-family: var(--mono);
-    font-size: 10px;
-    color: var(--muted);
-    letter-spacing: 0.08em;
-  }
+/* ── RESPONSIVE ── */
+@media (max-width: 680px) {
+  .cv-grid { grid-template-columns: 1fr; }
+  .col-side { border-top: 1px solid var(--border); padding-top: 40px; }
+  .contact-block { text-align: left; }
+  .header-top { flex-direction: column; }
+}
 
-  /* ── RESPONSIVE ── */
-  @media (max-width: 680px) {
-    .cv-grid { grid-template-columns: 1fr; }
-    .col-side { border-top: 1px solid var(--border); padding-top: 40px; }
-    .contact-block { text-align: left; }
-    .header-top { flex-direction: column; }
-  }
 </style>
 </head>
 <body>
 <div class="wrapper">
 
-  <!-- HEADER -->
+  <!-- ── HEADER ── -->
   <header class="fade-up">
     <div class="header-top">
       <div class="name-block">
@@ -478,18 +477,18 @@
       </div>
       <div class="contact-block">
         <div class="contact-item">📍 <span>Tokyo, Japan</span></div>
-        <div class="contact-item">✉ <span>[<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b4d1d9d5ddd8f4d1ccd5d9c4d8d19ad7dbd9">[email&#160;protected]</a>]</span></div>
+        <div class="contact-item">✉ <span>[email@example.com]</span></div>
         <div class="contact-item">🔗 <span>[LinkedIn / Portfolio]</span></div>
       </div>
     </div>
   </header>
 
+  <!-- ── MAIN GRID ── -->
   <div class="cv-grid">
 
-    <!-- MAIN COLUMN -->
+    <!-- ════ LEFT COLUMN ════ -->
     <div class="col-main">
 
-      <!-- WORK EXPERIENCE -->
       <section class="fade-up">
         <div class="section-header">
           <span class="section-label">Work Experience / 職務経歴</span>
@@ -546,8 +545,18 @@
           </div>
           <div class="exp-company">LimePage Limited</div>
           <ul class="exp-duties">
-            <li><div><span class="en">Developed mobile applications and contributed to PCB board design.</span><span class="jp">モバイルアプリ開発およびPCB基板設計を担当。</span></div></li>
-            <li><div><span class="en">Built and maintained web interfaces as part of cross-functional product development.</span><span class="jp">製品開発の一環としてWebインターフェースを構築・保守。</span></div></li>
+            <li>
+              <div>
+                <span class="en">Developed mobile applications and contributed to PCB board design.</span>
+                <span class="jp">モバイルアプリ開発およびPCB基板設計を担当。</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="en">Built and maintained web interfaces as part of cross-functional product development.</span>
+                <span class="jp">製品開発の一環としてWebインターフェースを構築・保守。</span>
+              </div>
+            </li>
           </ul>
         </div>
 
@@ -562,19 +571,28 @@
           </div>
           <div class="exp-company">Egg Technologies Limited</div>
           <ul class="exp-duties">
-            <li><div><span class="en">Taught programming fundamentals to primary school students, adapting technical concepts for young learners.</span><span class="jp">小学生にプログラミングの基礎を指導。技術的概念を年齢に合わせて教授。</span></div></li>
-            <li><div><span class="en">Designed and prepared course materials and lesson plans independently.</span><span class="jp">授業教材およびレッスン計画を独自に設計・準備。</span></div></li>
+            <li>
+              <div>
+                <span class="en">Taught programming fundamentals to primary school students, adapting technical concepts for young learners.</span>
+                <span class="jp">小学生にプログラミングの基礎を指導。技術的概念を年齢に合わせて教授。</span>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span class="en">Designed and prepared course materials and lesson plans independently.</span>
+                <span class="jp">授業教材およびレッスン計画を独自に設計・準備。</span>
+              </div>
+            </li>
           </ul>
         </div>
 
       </section>
-
     </div>
 
-    <!-- SIDE COLUMN -->
+    <!-- ════ RIGHT COLUMN ════ -->
     <div class="col-side fade-up">
 
-      <!-- CORE APPROACH -->
+      <!-- Approach -->
       <section>
         <div class="section-header">
           <span class="section-label">Approach / 仕事姿勢</span>
@@ -588,7 +606,7 @@
         </div>
       </section>
 
-      <!-- LANGUAGES -->
+      <!-- Languages -->
       <section>
         <div class="section-header">
           <span class="section-label">Languages / 言語</span>
@@ -633,7 +651,7 @@
         </div>
       </section>
 
-      <!-- SKILLS -->
+      <!-- Skills -->
       <section>
         <div class="section-header">
           <span class="section-label">Skills / スキル</span>
@@ -673,7 +691,7 @@
 
       </section>
 
-      <!-- EDUCATION -->
+      <!-- Education -->
       <section>
         <div class="section-header">
           <span class="section-label">Education / 学歴</span>
@@ -698,4 +716,10 @@
   </div><!-- /cv-grid -->
 
   <footer>
-    <span>[
+    <span>[Your Name] · Localization Specialist · Tokyo</span>
+    <span>Updated 2026</span>
+  </footer>
+
+</div>
+</body>
+</html>
